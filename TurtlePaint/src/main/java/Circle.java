@@ -11,8 +11,6 @@ public class Circle extends Shape {
     @Override
     public void paint() {
 
-//        double rotation = (2 * Math.PI);
-
         Point tracker = new Point(location.x + radius, location.y);
 
         turtle.penUp();
