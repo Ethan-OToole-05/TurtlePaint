@@ -8,7 +8,7 @@ public class MainApp {
         Turtle hisMom = new Turtle(world, 300, 300);
         Square square = new Square(pointDexter, new Point(0, 0), Color.PINK, 3, 200, 200);
         Triangle triangle = new Triangle(vash, new Point(200, 200), Color.CYAN, 3, new Point(21, 50), new Point(0, 0));
-        Circle circle = new Circle(hisMom, new Point(100, 100), Color.MAGENTA, 3, 10);
+        Circle circle = new Circle(hisMom, new Point(100, 100), Color.MAGENTA, 3, 50);
 
         square.paint();
         triangle.paint();
