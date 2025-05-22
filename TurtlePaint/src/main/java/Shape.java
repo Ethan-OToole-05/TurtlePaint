@@ -4,13 +4,13 @@ public abstract class Shape {
     protected Turtle turtle;
     protected Point location;
     protected Color color;
-    protected int width;
+    protected int border;
 
-    public Shape(Turtle turtle, Point location, Color color, int width) {
+    public Shape(Turtle turtle, Point location, Color color, int border) {
         this.turtle = turtle;
         this.location = location;
         this.color = color;
-        this.width = width;
+        this.border = border;
     }
 
     public Turtle getTurtle() {
@@ -37,12 +37,12 @@ public abstract class Shape {
         this.color = color;
     }
 
-    public int getWidth() {
-        return width;
+    public int getBorder() {
+        return border;
     }
 
-    public void setWidth(int width) {
-        this.width = width;
+    public void setBorder(int border) {
+        this.border = border;
     }
 
     public abstract void paint();

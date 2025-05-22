@@ -156,7 +156,7 @@ public class Turtle {
 
         // // Other way to draw trails; can't change color part-way through though
         // g.setColor(color);
-        // g.setStroke(new BasicStroke((float)this.width, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
+        // g.setStroke(new BasicStroke((float)this.border, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
         // g.draw(this.trail);
         // // end other way to draw tails
 
@@ -344,16 +344,16 @@ public class Turtle {
     private double penWidth;
 
     /**
-     * Returns the current width of the turtle's pen.
-     * @return The new pen width, in pixels.
+     * Returns the current border of the turtle's pen.
+     * @return The new pen border, in pixels.
      */
     public double getPenWidth() {
         return penWidth;
     }
 
     /**
-     * Sets the width of the pen.
-     * @param width The new pen width, in pixels.
+     * Sets the border of the pen.
+     * @param width The new pen border, in pixels.
      */
     public void setPenWidth(double width) {
         if (width <= 0) throw new IllegalArgumentException("Width must be positive");
