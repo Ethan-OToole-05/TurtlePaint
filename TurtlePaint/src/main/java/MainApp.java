@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.io.File;
 
 public class MainApp {
     public static World world = new World(600, 600);
@@ -13,8 +14,9 @@ public class MainApp {
 //        square.paint();
 //        triangle.paint();
 //        circle.paint();
-
         UI.display();
+//        File file = new File("test.jpg");
+//        System.out.println(file.getAbsolutePath());
 
     }
 }

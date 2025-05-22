@@ -22,7 +22,7 @@ public class UI {
                     processSaveImage();
                     break;
                 case 0:
-                    return;
+                    System.exit(0);
                 default:
                     System.out.println("Invalid input.");
             }
